@@ -1,0 +1,10 @@
+#pealkiri {
+    color: red;
+    font-size: 24px;
+}
+
+.taustakast {
+    background-color: 0D0237;
+    color: white;
+    padding: 10px;
+}
