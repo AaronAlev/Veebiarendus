@@ -14,8 +14,12 @@ a {
     text-decoration: none;
 }
 
-h1, h2 {
+h1, h2, h3 {
     padding-bottom: 20px;
+}
+
+h1 a {
+    padding-left: 20px;
 }
 
 .text-primary {
@@ -45,6 +49,20 @@ h1, h2 {
 .bg-dark {
     background: #333;
     color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-orange {
+    background: #f7c08a;
+    color: #333;
+}
+
+.py-30 {
+    padding: 30px ;
 }
 
 
@@ -129,4 +147,39 @@ h1, h2 {
     width: 50%;
     background: url('../img/photo-1.jpg') no-repeat;
     min-height: 100%;
+}
+
+#features .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+#features .box i {
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* About */
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
 }
